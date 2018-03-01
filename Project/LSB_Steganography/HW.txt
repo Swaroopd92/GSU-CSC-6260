@@ -1,0 +1,27 @@
+CSC8221: Optical/Wireless networks
+Homework 3
+
+1.	Compare the following concepts (RWA: Routing and Wavelength Assignment, RSA: Routing and Spectrum Allocation):
+	a) RWA in in wavelength routed networks vs. RWA in waveband switching networks
+	b) RSA in wavelength routed networks vs. RSA in FlexGrid networks
+
+2.	Compare the advantages and disadvantages of link protection, path protection and segment protection. 
+
+3.	Comparing to Protection schemes, why Restoration schemes can be more efficient in terms of resource utilization. 
+
+4.	Explain the basic idea of dedicated protection and shared protection. 
+	Compare dedicated link protection with dedicated path protection, which one is more practical and why?
+ 
+5.	In Optical Burst Switching (OBS) Networks, one key issue is to resolve the burst contention.
+	(a) Explain when burst contention will happen.
+	(b) Provide at least 3 methods that can be employed to reduce data loss due to the burst contention, and briefly explain the idea of each method. 
+
+6.	In OBS networks, the control packet is sent in advance before the corresponding data burst by an offset time. 
+	Answer the following questions: 
+	(a) Why is the offset time required?
+	(b) Assume we divide the burst into two classes: Class A, and Class B. We assign a larger offset time for the burst in Class A.
+	Explain why then the bursts in Class A have higher priority in the channel usage.
+	In other words, the bursts in Class A have less chance to be dropped due to contention.  
+
+7.	(a). What is the maximum data rate that can be supported on a 10 MHz noiseless channel if the channel uses eight-level digital signals?
+	(b). What signal to noise ratio (in dB) is required to achieve 10 Mbps through a 5MHz channel?
