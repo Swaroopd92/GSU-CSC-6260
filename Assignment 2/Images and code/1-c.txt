@@ -1,0 +1,4 @@
+i=imread('bacteria.tif');
+s=edge(i,'Prewitt');
+imshow(s)
+imwrite(s,'1-c.tif')

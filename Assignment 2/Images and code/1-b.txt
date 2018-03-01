@@ -1,0 +1,4 @@
+i=imread('bacteria.tif');
+s=edge(i,'Roberts');
+imshow(s)
+imwrite(s,'1-b.tif')

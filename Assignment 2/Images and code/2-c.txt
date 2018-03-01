@@ -1,0 +1,6 @@
+
+>> h = fspecial('average', 9);
+i2= filter2( h, i );
+i2=uint8(round(i2));
+imshow(i2);
+imwrite(i2,'2-c.tif');
